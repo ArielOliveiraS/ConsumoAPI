@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    tools:context=".view.activity.DetalheHqActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBanner"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/hell" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="120dp"
+        android:layout_height="163dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="90dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/marvel" />
+
+    <TextView
+        android:id="@+id/detalheTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="15dp"
+        android:text="Titulo do Quadrinho"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/detalheDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="15dp"
+        android:text="Descrição do Quadrinho"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/detalheAnoDePublicação"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="550dp"
+        android:text="Ano de publicação"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/detalhePreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="575dp"
+        android:text="Preço"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/detalhePaginas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="598dp"
+        android:text="Numero de Paginas"
+        android:textColor="#FFFFFF"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
