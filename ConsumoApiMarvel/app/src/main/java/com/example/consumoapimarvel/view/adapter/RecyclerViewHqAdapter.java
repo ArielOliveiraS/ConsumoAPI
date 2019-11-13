@@ -80,7 +80,7 @@ public class RecyclerViewHqAdapter extends RecyclerView.Adapter<RecyclerViewHqAd
         public void onBind(Result result) {
 
             textView.setText(result.getTitle());
-            //Picasso.get().load(result.getImages()).into(imageView);
+            Picasso.get().load(result.getThumbnail().getPath()).into(imageView);
 
         }
     }

@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         //Configurando ProgressBar
-        viewModel.isLoading.observe(this, (Boolean loading) -> {
+        viewModel.getLoadind().observe(this, (Boolean loading) -> {
             if (loading) {
                 progressBar.setVisibility(View.VISIBLE);
             } else {

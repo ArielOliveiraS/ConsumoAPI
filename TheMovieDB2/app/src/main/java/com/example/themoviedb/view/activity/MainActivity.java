@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements OnClick {
     private List<Result> listaFilmes = new ArrayList<>();
     private FilmeViewModel viewModel;
 
-    //Atributo para armazenar a o valor da pagina atual
+
     private int pagina = 1;
     public static final String API_KEY = "bde8033d3274c91b292a5293c6349052";
 
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements OnClick {
     }
 
     private void initViews() {
-        recyclerView = findViewById(R.id.recyclerView);
+        recyclerView = findViewById(R.id.recyclerViewMain);
         progressBar = findViewById(R.id.progressBar);
         adapter = new FilmeAdapter(listaFilmes, this);
         viewModel = ViewModelProviders.of(this).get(FilmeViewModel.class);

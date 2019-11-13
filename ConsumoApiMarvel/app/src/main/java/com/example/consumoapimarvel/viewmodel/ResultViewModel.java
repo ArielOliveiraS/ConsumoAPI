@@ -42,7 +42,7 @@ public class ResultViewModel extends AndroidViewModel {
             return this.loading;
         }
 
-    public void getAllResults(String apiKey, String pageCount, List<Date> dates,
+    public void getHq(String apiKey, String pageCount, List<Date> dates,
                               List<Price> prices, List<Image> images, String title,
                               String description) {
         disposable.add(
@@ -56,7 +56,7 @@ public class ResultViewModel extends AndroidViewModel {
                             }
                         })
                         .doOnTerminate(() -> loading.setValue(false))
-                        .subscribe(hqResult -> listaResult.setValue(hqResult.getResults()),
+                        .subscribe(hqResult -> listaResult.setValue(hqResult.get()),
                                 throwable -> {
                                     Log.i("LOG", "erro" + throwable.getMessage());
                                 })

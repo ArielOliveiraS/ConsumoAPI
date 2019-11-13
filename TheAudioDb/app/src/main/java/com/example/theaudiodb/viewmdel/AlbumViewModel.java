@@ -40,6 +40,10 @@ public class AlbumViewModel extends AndroidViewModel {
         return this.albunsLiveDataError;
     }
 
+    public LiveData<Boolean> getLoadind(){
+        return this.isLoading;
+    }
+
     public void getAlbuns(String artista) {
 
         disposable.add(
