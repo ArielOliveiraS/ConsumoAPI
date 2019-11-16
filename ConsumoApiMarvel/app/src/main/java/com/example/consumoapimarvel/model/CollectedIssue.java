@@ -1,11 +1,9 @@
 
 package com.example.consumoapimarvel.model;
 
-
 import com.google.gson.annotations.Expose;
 
 
-@SuppressWarnings("unused")
 public class CollectedIssue {
 
     @Expose

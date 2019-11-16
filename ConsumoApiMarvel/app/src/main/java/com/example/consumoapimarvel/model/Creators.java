@@ -1,12 +1,11 @@
 
 package com.example.consumoapimarvel.model;
 
-import java.util.List;
-
 import com.google.gson.annotations.Expose;
 
+import java.util.List;
 
-@SuppressWarnings("unused")
+
 public class Creators {
 
     @Expose

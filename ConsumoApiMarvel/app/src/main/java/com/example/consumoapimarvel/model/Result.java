@@ -4,12 +4,11 @@ package com.example.consumoapimarvel.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import java.util.List;
-
 import com.google.gson.annotations.Expose;
 
+import java.util.List;
 
-@SuppressWarnings("unused")
+
 public class Result implements Parcelable {
 
     @Expose

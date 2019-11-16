@@ -36,7 +36,7 @@ public class RecyclerViewHqAdapter extends RecyclerView.Adapter<RecyclerViewHqAd
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-        Result result = resultList.get(position);
+        final Result result = resultList.get(position);
         holder.onBind(result);
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -73,14 +73,14 @@ public class RecyclerViewHqAdapter extends RecyclerView.Adapter<RecyclerViewHqAd
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            imageView = itemView.findViewById(R.id.imgHq);
+            imageView = itemView.findViewById(R.id.itemImgHq);
             textView = itemView.findViewById(R.id.txtTitulo);
         }
 
         public void onBind(Result result) {
 
             textView.setText(result.getTitle());
-            Picasso.get().load(result.getThumbnail().getPath()).into(imageView);
+            Picasso.get().load(result.getThumbnail().getPath() + ".jpg").into(imageView);
 
         }
     }

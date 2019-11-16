@@ -1,6 +1,5 @@
 package com.example.consumoapimarvel.view.interfaces;
 
-import com.example.consumoapimarvel.model.HQ;
 import com.example.consumoapimarvel.model.Result;
 
 public interface OnClick {
