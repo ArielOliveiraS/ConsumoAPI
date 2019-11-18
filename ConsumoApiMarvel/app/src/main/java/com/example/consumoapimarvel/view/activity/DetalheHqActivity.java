@@ -30,8 +30,9 @@ public class DetalheHqActivity extends AppCompatActivity {
         if (getIntent() != null) {
             Result result = getIntent().getParcelableExtra("Result");
 
-            Picasso.get().load(result.getThumbnail().getPath() + ".jpg").into(imgBanner);
-            Picasso.get().load(result.getThumbnail().getPath() + ".jpg").into(imgHq);
+            Picasso picasso = Picasso.get();
+            picasso.load(result.getThumbnail().getPath() + "/detail."+ result.getThumbnail().getExtension()).into(imgBanner);
+            picasso.load(result.getThumbnail().getPath() + "/detail."+ result.getThumbnail().getExtension()).into(imgHq);
 
             txtTitulo.setText(result.getTitle());
             txtDescricao.setText(result.getDescription());

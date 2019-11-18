@@ -27,17 +27,19 @@ public class MainActivity extends AppCompatActivity implements OnClick {
     private List<Result> resultList = new ArrayList<>();
     private MarvelViewModel viewModel;
 
-
+    public static final String RESULT_KEY = "result";
+    public int offset = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initViews();
 
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 3));
 
-        viewModel.getAllComics();
+        viewModel.getComics(offset);
 
         viewModel.getListaResult().observe(this, retornaLista -> {
             adapter.atualizaLista(retornaLista);
@@ -65,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements OnClick {
     public void click(Result result) {
         Intent intent = new Intent(MainActivity.this, DetalheHqActivity.class);
         Bundle bundle = new Bundle();
-        bundle.putParcelable("Result", result);
+        bundle.putParcelable(RESULT_KEY, result);
         intent.putExtras(bundle);
         startActivity(intent);
 

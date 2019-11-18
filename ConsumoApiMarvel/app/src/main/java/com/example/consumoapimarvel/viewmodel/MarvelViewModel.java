@@ -22,8 +22,15 @@ import static com.example.consumoapimarvel.util.AppUtils.md5;
 public class MarvelViewModel extends AndroidViewModel {
     private MutableLiveData<List<Result>> listaResult = new MutableLiveData<>();
     private MutableLiveData<Boolean> loading = new MutableLiveData<>();
+    private MutableLiveData<String> error = new MutableLiveData<>();
     private CompositeDisposable disposable = new CompositeDisposable();
     private MarvelRepository repository = new MarvelRepository();
+    private String order = "onsaleDate";
+    private String date = "thisMonth";
+    private String format = "comic";
+    private String formatType = "comic";
+
+
     private static final String PUBLIC_API_KEY = "6eb7e8896ec5850c52515a8a23ee97f0";
     private static final String PRIVATE_API_KEY = "0dd0c16fedb8a02985977eafca66b49f5e6a526f";
     String ts = Long.toString(System.currentTimeMillis() / 1000);
@@ -39,21 +46,26 @@ public class MarvelViewModel extends AndroidViewModel {
     public LiveData<Boolean> getLoading() {
         return this.loading;
     }
+    public LiveData<String> getError() {
+        return this.error;
+    }
 
-    public void getAllComics() {
+    public void getComics(int offset) {
         disposable.add(
-                repository.getComics("magazine","comic",true, "focDate","50",ts , hash , PUBLIC_API_KEY)
+                repository.getComics(date, format, formatType, order, ts, hash, PUBLIC_API_KEY, true, offset)
                         .subscribeOn(Schedulers.io())
                         .observeOn(AndroidSchedulers.mainThread())
-                        .doOnSubscribe(disposable1 -> loading.setValue(true))
-                        .doOnTerminate(() -> loading.setValue(false))
-
-                        .subscribe(comicResult -> {
-                                    listaResult.setValue(comicResult.getData().getResults());
-                                },
-                                throwable -> {
-                                    Log.i("LOG", "Erro" + throwable.getMessage());
-                                })
+                        .doOnSubscribe(disposable1 -> {
+                            loading.setValue(true);
+                        })
+                        .doAfterTerminate(() -> {
+                            loading.setValue(false);
+                        })
+                        .subscribe(comicsResponse -> {
+                            listaResult.setValue(comicsResponse.getData().getResults());
+                        }, throwable -> {
+                            error.setValue(throwable.getMessage());
+                        })
         );
 
 
