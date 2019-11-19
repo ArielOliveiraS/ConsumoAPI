@@ -72,7 +72,6 @@ public class RecyclerViewHqAdapter extends RecyclerView.Adapter<RecyclerViewHqAd
 
         public void onBind(Result result) {
             Picasso.get().load(result.getThumbnail().getPath() + ".jpg").into(imageView);
-            //Picasso.get().load(result.getThumbnail().getPath() + "/detail." + result.getThumbnail().getExtension());
             textView.setText(result.getTitle());
         }
     }
