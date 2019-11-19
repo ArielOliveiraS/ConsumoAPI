@@ -9,13 +9,12 @@ import retrofit2.http.Query;
 public interface HQAPI {
 
     @GET("comics")
-    Observable<Marvel> getAllComics(@Query("dateDescriptor") String data,
-                                            @Query("format") String format,
-                                            @Query("formatType") String formatType,
-                                            @Query("orderBy") String order,
-                                            @Query("ts") String timestamp,
-                                            @Query("hash") String hash,
-                                            @Query("apikey") String apiKey,
-                                            @Query("noVariants") Boolean noVariants,
-                                            @Query("offset") int offset);
+    Observable<Marvel> getAllComics(@Query("format") String format,
+                                    @Query("formatType") String formatType,
+                                    @Query("noVariants") boolean noVariants,
+                                    @Query("orderBy") String orderBy,
+                                    @Query("limit") String limit,
+                                    @Query("ts") String ts,
+                                    @Query("hash") String hash,
+                                    @Query("apikey") String apiKey);
 }

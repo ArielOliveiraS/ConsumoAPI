@@ -1,5 +1,6 @@
 package com.example.consumoapimarvel.repository;
 
+import com.example.consumoapimarvel.data.remote.RetrofitService;
 import com.example.consumoapimarvel.model.Marvel;
 
 import io.reactivex.Observable;
@@ -8,9 +9,9 @@ import static com.example.consumoapimarvel.data.remote.RetrofitService.getApiSer
 
 public class MarvelRepository {
 
-    public Observable<Marvel> getComics(String data, String format, String formatType, String order, String timestamp, String hash, String apiKey, Boolean noVariants, int offset) {
-        return getApiService().getAllComics(data, format, formatType, order, timestamp, hash, apiKey, noVariants, offset);
+    public Observable<Marvel> getComics(String format, String formatType, boolean noVariants, String orderBy, String limit, String ts, String hash, String apiKey) {
+        return RetrofitService.getApiService().getAllComics(format, formatType, noVariants, orderBy, limit, ts, hash, apiKey);
     }
-    }
+}
 
 

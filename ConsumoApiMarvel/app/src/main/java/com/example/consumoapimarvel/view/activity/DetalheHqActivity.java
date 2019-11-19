@@ -2,23 +2,25 @@ package com.example.consumoapimarvel.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.consumoapimarvel.R;
 import com.example.consumoapimarvel.model.Result;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.squareup.picasso.Picasso;
 
 public class DetalheHqActivity extends AppCompatActivity {
 
-    private ImageView imgBanner;
-    private ImageView imgHq;
+    private ImageView imagem;
     private TextView txtTitulo;
     private TextView txtDescricao;
     private TextView txtData;
     private TextView txtPreço;
     private TextView txtPaginas;
+    private FloatingActionButton btnvoltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +32,8 @@ public class DetalheHqActivity extends AppCompatActivity {
         if (getIntent() != null) {
             Result result = getIntent().getParcelableExtra("Result");
 
-            Picasso picasso = Picasso.get();
-            picasso.load(result.getThumbnail().getPath() + "/detail."+ result.getThumbnail().getExtension()).into(imgBanner);
-            picasso.load(result.getThumbnail().getPath() + "/detail."+ result.getThumbnail().getExtension()).into(imgHq);
+            Picasso.get().load(result.getThumbnail().getPath() + ".jpg").into(imagem);
+            //   Picasso.get().load(result.getThumbnail().getPath() + "/detail." + result.getThumbnail().getExtension());
 
             txtTitulo.setText(result.getTitle());
             txtDescricao.setText(result.getDescription());
@@ -44,17 +45,30 @@ public class DetalheHqActivity extends AppCompatActivity {
 
             txtPreço.setText("US$ " + String.format("%.2f", result.getPrices().get(0).getPrice()));
             txtPaginas.setText(result.getPageCount().toString() + " pages");
+            imagem.setOnClickListener(v -> {
+                Intent intent = new Intent(DetalheHqActivity.this, DetalheImagem.class);
+                Bundle bundle = new Bundle();
+                bundle.putParcelable("Result", result);
+                intent.putExtras(bundle);
+                startActivity(intent);
+            });
 
-        }}
+            btnvoltar.setOnClickListener(v -> {
+                Intent intent = new Intent(DetalheHqActivity.this, MainActivity.class);
+                startActivity(intent);
+            });
+
+        }
+    }
 
     public void initViews() {
-        imgBanner = findViewById(R.id.imgBanner);
-        imgHq = findViewById(R.id.imgHQ);
-        txtTitulo= findViewById(R.id.txtTitulo);
-        txtDescricao= findViewById(R.id.txtDescricao);
-        txtData= findViewById(R.id.txtPublicacao);
-        txtPreço= findViewById(R.id.txtPreco);
-        txtPaginas= findViewById(R.id.txtPaginas);
+        imagem = findViewById(R.id.imgHQ);
+        txtTitulo = findViewById(R.id.txtTitulo);
+        txtDescricao = findViewById(R.id.txtDescricao);
+        txtData = findViewById(R.id.txtPublicacao);
+        txtPreço = findViewById(R.id.txtPreco);
+        txtPaginas = findViewById(R.id.txtPaginas);
+        btnvoltar = findViewById(R.id.btnVoltar);
 
     }
 }
