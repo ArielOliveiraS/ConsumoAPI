@@ -4,34 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBlue"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.example.desafiomarvelapi.view.activities.DetalheImagemActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-android:id="@+id/btnVoltar"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:clickable="true"
-android:focusable="true"
-app:backgroundTint="@android:color/transparent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:srcCompat="@drawable/ic_back" />
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
 
-<ImageView
-android:id="@+id/imgDetalhe"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:scaleType="centerCrop"
-android:layout_marginTop="50dp"
-android:layout_marginLeft="15dp"
-android:layout_marginRight="15dp"
-android:layout_marginBottom="15dp"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="0.0"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.0"
-app:srcCompat="@drawable/capitao" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imgDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bannermarvel" />
+</androidx.constraintlayout.widget.ConstraintLayout>
