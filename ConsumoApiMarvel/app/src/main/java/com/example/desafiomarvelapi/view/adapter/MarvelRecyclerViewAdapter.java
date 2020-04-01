@@ -9,9 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.desafiomarvelapi.model.pojos.Result;
-import com.example.desafiomarvelapi.view.interfaces.OnClick;
 import com.example.desafiomarvelapi.R;
+import com.example.desafiomarvelapi.model.characters.Result;
+import com.example.desafiomarvelapi.view.interfaces.OnClick;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -47,8 +47,11 @@ public class MarvelRecyclerViewAdapter extends RecyclerView.Adapter<MarvelRecycl
     }
 
     public void atualizaLista(List<Result> novaLista) {
-        this.listaResults.clear();
-        this.listaResults = novaLista;
+        if (this.listaResults.isEmpty()){
+            this.listaResults = novaLista;
+        }else{
+            this.listaResults.addAll(novaLista);
+        }
         notifyDataSetChanged();
     }
 
@@ -66,7 +69,7 @@ public class MarvelRecyclerViewAdapter extends RecyclerView.Adapter<MarvelRecycl
 
         public void onBind (Result result) {
             Picasso.get().load(result.getThumbnail().getPath() + ".jpg").into(imagem);
-            texto.setText(result.getTitle());
+            texto.setText(result.getName());
         }
     }
 }

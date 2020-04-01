@@ -6,8 +6,8 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.desafiomarvelapi.model.pojos.Result;
 import com.example.desafiomarvelapi.R;
+import com.example.desafiomarvelapi.model.characters.Result;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.squareup.picasso.Picasso;
 

@@ -13,7 +13,7 @@
         android:descendantFocusability="blocksDescendants">
 
         <ImageView
-            android:id="@+id/bg"
+            android:id="@+id/imgBanner"
             android:layout_width="412dp"
             android:layout_height="224dp"
             android:scaleType="centerCrop"
@@ -77,93 +77,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
-
-        <LinearLayout
-            android:id="@+id/layout1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="18dp"
-            android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtDescricao">
-
-            <TextView
-                android:id="@+id/published"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Published:"
-                android:textColor="@color/colorWhite"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/txtData"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="15"
-                android:text="Data"
-                android:textColor="@color/colorWhite" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/layout2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="18dp"
-            android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/layout1">
-
-            <TextView
-                android:id="@+id/price"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Price:"
-                android:textColor="@color/colorWhite"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/txtValor"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="15"
-                android:text="Valor"
-                android:textColor="@color/colorWhite" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/layout3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="18dp"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/layout2">
-
-            <TextView
-                android:id="@+id/pages"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Pages:"
-                android:textColor="@color/colorWhite"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/txtPaginas"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="15"
-                android:text="Páginas"
-                android:textColor="@color/colorWhite" />
-
-        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -7,31 +7,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6b35689-fd82-4988-85e0-25e3d5bef6c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bannermarvel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/homemaranhajpg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Personagens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Comics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Events.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Stories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Url.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_stetho_stetho_1_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_stetho_stetho_1_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/americahorizonte.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/capitao.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/vigadores.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/data/remote/MarvelAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/data/remote/MarvelAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Comics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/ComicsResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Characterid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Creators.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Date.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Events.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Thumbnail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Price.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Series.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Stories.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Stories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/TextObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Thumbnail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Thumbnail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Url.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Url.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/repository/MarvelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/repository/MarvelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheImagemActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheImagemActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/adapter/MarvelRecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/adapter/MarvelRecyclerViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/interfaces/OnClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/interfaces/OnClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/viewmodel/MarvelViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/viewmodel/MarvelViewModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe_imagem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe_imagem.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TheMovieDB2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TheMovieDB2/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,98 +68,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="fd680706" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <projects_view />
       </state>
     </system>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-              <folding>
-                <element signature="e#2664#2680#0" expanded="true" />
-                <element signature="e#3192#3211#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe_imagem.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bannermarvel.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -140,310 +89,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/repository/MarvelRepository.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/desafiomarvelapi/model/pojos/ComicsResult.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheImagemActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/SplashActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/adapter/MarvelRecyclerViewAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/viewmodel/MarvelViewModel.java" />
-        <option value="$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/layout/item_recyclerview.xml" />
-        <option value="$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/layout/activity_detalhe_imagem.xml" />
-        <option value="$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/layout/activity_detalhe.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe_imagem.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="2" />
-    <option name="width" value="849" />
-    <option name="height" value="996" />
-  </component>
+  <component name="ProjectId" id="1ZJI0W4gAh1frazL8yFQfpaPuev" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="pojos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="activities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="desafiomarvelapi" type="462c0819:PsiDirectoryNode" />
-              <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="drawable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioMarvelAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConsumoApiMarvel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lan Solo\Desktop\ConsumoAPI\ConsumoApiMarvel\app\src\main\res\drawable" />
-      <recent name="C:\Users\Lan Solo\Desktop\DesafioMarvelAPI\app\src\main\res\drawable" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\CENTRAL\MobileCursoDH\DesafioMarvel\Meu\_Para\app\src\main\res\drawable" />
-      <recent name="C:\CENTRAL\MobileCursoDH\DesafioMarvel\Meu\app\src\main\res\drawable" />
-      <recent name="C:\CENTRAL\MobileCursoDH\DesafioMarvel\Meu\app\src\main\res\values" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.desafiomarvelapi.viewmodel" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model" />
+      <recent name="C:\Users\Lan Solo\Desktop\ConsumoAPI\ConsumoApiMarvel\app\src\main\res\drawable" />
+      <recent name="C:\Users\Lan Solo\Desktop\DesafioMarvelAPI\app\src\main\res\drawable" />
       <recent name="C:\CENTRAL\MobileCursoDH\DesafioMarvel\Meu\_Para\app\src\main\res\drawable" />
+      <recent name="C:\CENTRAL\MobileCursoDH\DesafioMarvel\Meu\app\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -481,8 +146,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
@@ -533,394 +196,17 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1005" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3099022" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Build Variants" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="6" />
-      <window_info id="Resources Explorer" order="7" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" />
-      <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43862522" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32683486" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32798165" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.5935065" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Build Variants" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="6" />
-      <window_info id="Resources Explorer" order="7" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" />
-      <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43862522" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32792583" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-    </layout-to-restore>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/aranha.jpeg" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/aranhaestatica.jpg" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_back.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/aranhaicon.jpg" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/border.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/ComicsResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Creators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Characters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Events.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Price.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="313" column="18" selection-start-line="313" selection-start-column="18" selection-end-line="313" selection-end-column="18" />
-          <folding>
-            <element signature="e#6674#6675#0" expanded="true" />
-            <element signature="e#6702#6703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Series.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Stories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheImagemActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="82" selection-start-line="23" selection-start-column="7" selection-end-line="27" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/interfaces/OnClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/TextObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Thumbnail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Url.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/adapter/MarvelRecyclerViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/data/remote/MarvelAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/data/remote/RetrofitService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/data/util/AppUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/repository/MarvelRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/viewmodel/MarvelViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/layout/activity_detalhe_imagem.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/layout/activity_detalhe.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/layout/item_recyclerview.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/res/layout/activity_splash.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../DesafioMarvelAPI/app/src/main/java/com/example/desafiomarvelapi/view/adapter/MarvelRecyclerViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/capitao.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/vigadores.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/americahorizonte.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bannermarvel.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe_imagem.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="e#2664#2680#0" expanded="true" />
-            <element signature="e#3192#3211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
