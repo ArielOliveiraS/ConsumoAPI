@@ -7,59 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6b35689-fd82-4988-85e0-25e3d5bef6c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Personagens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Comics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Events.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Series.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Stories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Url.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_stetho_stetho_1_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_stetho_stetho_1_5_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/data/remote/MarvelAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/data/remote/MarvelAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Comics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/ComicsResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Characterid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Creators.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Series.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Date.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Events.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/charactersId/Thumbnail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Price.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Series.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Stories.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Stories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/TextObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Thumbnail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Thumbnail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/pojos/Url.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/model/characters/Url.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/repository/MarvelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/repository/MarvelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheImagemActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/DetalheImagemActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/activities/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/adapter/MarvelRecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/adapter/MarvelRecyclerViewAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/interfaces/OnClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/view/interfaces/OnClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/viewmodel/MarvelViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/desafiomarvelapi/viewmodel/MarvelViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detalhe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TheMovieDB2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TheMovieDB2/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
