@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements OnClick {
 
         viewModel.getPersonagens(1);
 
-        viewModel.getListaComics().observe(this, resultadoLista -> {
+        viewModel.getListaPersonagens().observe(this, resultadoLista -> {
             adapter.atualizaLista(resultadoLista);
         });
 

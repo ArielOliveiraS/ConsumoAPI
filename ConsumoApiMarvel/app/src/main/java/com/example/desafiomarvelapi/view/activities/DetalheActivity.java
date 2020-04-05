@@ -2,6 +2,7 @@ package com.example.desafiomarvelapi.view.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -19,6 +20,7 @@ public class DetalheActivity extends AppCompatActivity {
     private TextView txtTitulo;
     private TextView txtDescricao;
     private FloatingActionButton btnVoltar;
+    private Button btnHq;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +38,7 @@ public class DetalheActivity extends AppCompatActivity {
             txtTitulo.setText(result.getName());
             txtDescricao.setText(result.getDescription());
 
-            imagem.setOnClickListener(v -> {
+            btnHq.setOnClickListener(v -> {
                 Intent intent = new Intent(DetalheActivity.this, DetalheImagemActivity.class);
                 Bundle bundle = new Bundle();
                 bundle.putParcelable("Result", result);
@@ -55,8 +57,9 @@ public class DetalheActivity extends AppCompatActivity {
     public void initViews() {
         imagem = findViewById(R.id.imgHQ);
         imgBanner = findViewById(R.id.imgBanner);
-        txtTitulo= findViewById(R.id.txtTitulo);
-        txtDescricao= findViewById(R.id.txtDescricao);
-        btnVoltar= findViewById(R.id.floatingActionButton);
+        txtTitulo = findViewById(R.id.txtTitulo);
+        txtDescricao = findViewById(R.id.txtDescricao);
+        btnVoltar = findViewById(R.id.floatingActionButton);
+        btnHq = findViewById(R.id.btnHq);
     }
 }

@@ -21,6 +21,7 @@ import io.reactivex.schedulers.Schedulers;
 public class MarvelViewModel extends AndroidViewModel {
 
     private MutableLiveData<List<Result>> listaPersona = new MutableLiveData<>();
+    private MutableLiveData<List<com.example.desafiomarvelapi.model.comicsid.Result>> listaComics = new MutableLiveData<>();
     private MutableLiveData<Boolean> loading = new MutableLiveData<>();
     private CompositeDisposable disposable = new CompositeDisposable();
     private MarvelRepository repository = new MarvelRepository();
@@ -33,8 +34,12 @@ public class MarvelViewModel extends AndroidViewModel {
         super(application);
     }
 
-    public LiveData<List<Result>> getListaComics() {
+    public LiveData<List<Result>> getListaPersonagens() {
         return this.listaPersona;
+    }
+
+    public LiveData<List<com.example.desafiomarvelapi.model.comicsid.Result>> getListaComics() {
+        return this.listaComics;
     }
 
     public LiveData<Boolean> getLoading() {
@@ -43,13 +48,27 @@ public class MarvelViewModel extends AndroidViewModel {
 
     public void getPersonagens(int pagina) {
         disposable.add(
-                repository.getPersonagemRepositori(pagina,"name", ts, hash, PUBLIC_API_KEY)
+                repository.getPersonagemRepository(pagina,"name", ts, hash, PUBLIC_API_KEY)
                         .subscribeOn(Schedulers.io())
                         .observeOn(AndroidSchedulers.mainThread())
                         .doOnSubscribe(disposable1 -> loading.setValue(true))
                         .doOnTerminate(() -> loading.setValue(false))
                         .subscribe(personaResult -> {
                             listaPersona.setValue(personaResult.getData().getResults());
+                        }, throwable -> {
+                            Log.i("LOG", "Error: " + throwable.getMessage());
+                        }));
+    }
+
+    public void getComics(long characterid) {
+        disposable.add(
+                repository.getComicsRepository(characterid, ts, hash, PUBLIC_API_KEY)
+                        .subscribeOn(Schedulers.io())
+                        .observeOn(AndroidSchedulers.mainThread())
+                        .doOnSubscribe(disposable1 -> loading.setValue(true))
+                        .doOnTerminate(() -> loading.setValue(false))
+                        .subscribe(comicsResult -> {
+                            listaComics.setValue(comicsResult.getData().getResults());
                         }, throwable -> {
                             Log.i("LOG", "Error: " + throwable.getMessage());
                         }));

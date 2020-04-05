@@ -9,7 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:descendantFocusability="blocksDescendants">
 
         <ImageView
@@ -77,6 +77,21 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+        <Button
+            android:id="@+id/btnHq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDescricao"
+            android:layout_marginTop="20dp"
+            android:text="HQ"
+            android:textSize="18sp"
+            android:background="@color/colorBlue"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
