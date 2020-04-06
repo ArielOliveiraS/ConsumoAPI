@@ -1,12 +1,14 @@
 
 package com.example.desafiomarvelapi.model.comicsid;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import com.google.gson.annotations.Expose;
 
 import java.util.List;
 
-@SuppressWarnings("unused")
-public class Result {
+public class Result implements Parcelable {
 
     @Expose
     private Characters characters;
@@ -66,6 +68,37 @@ public class Result {
     private String variantDescription;
     @Expose
     private List<Variant> variants;
+
+    protected Result(Parcel in) {
+        description = in.readString();
+        diamondCode = in.readString();
+        digitalId = in.readString();
+        ean = in.readString();
+        format = in.readString();
+        id = in.readString();
+        isbn = in.readString();
+        issn = in.readString();
+        issueNumber = in.readString();
+        modified = in.readString();
+        pageCount = in.readString();
+        prices = in.createTypedArrayList(Price.CREATOR);
+        resourceURI = in.readString();
+        title = in.readString();
+        upc = in.readString();
+        variantDescription = in.readString();
+    }
+
+    public static final Creator<Result> CREATOR = new Creator<Result>() {
+        @Override
+        public Result createFromParcel(Parcel in) {
+            return new Result(in);
+        }
+
+        @Override
+        public Result[] newArray(int size) {
+            return new Result[size];
+        }
+    };
 
     public Characters getCharacters() {
         return characters;
@@ -299,4 +332,28 @@ public class Result {
         this.variants = variants;
     }
 
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(description);
+        parcel.writeString(diamondCode);
+        parcel.writeString(digitalId);
+        parcel.writeString(ean);
+        parcel.writeString(format);
+        parcel.writeString(id);
+        parcel.writeString(isbn);
+        parcel.writeString(issn);
+        parcel.writeString(issueNumber);
+        parcel.writeString(modified);
+        parcel.writeString(pageCount);
+        parcel.writeTypedList(prices);
+        parcel.writeString(resourceURI);
+        parcel.writeString(title);
+        parcel.writeString(upc);
+        parcel.writeString(variantDescription);
+    }
 }

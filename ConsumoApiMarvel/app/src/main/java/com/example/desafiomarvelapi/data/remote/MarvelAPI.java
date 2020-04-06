@@ -20,9 +20,9 @@ public interface MarvelAPI {
 
     );
 
-    @GET("characters/{characterId}/comics?ts=1586110452&apikey=6eb7e8896ec5850c52515a8a23ee97f0&hash=ee2b70bbde7eefb3a70289820e89a6f3")
+    @GET("characters/{characterId}/comics?")
     Observable<Comics> getIdComics(
-            @Path("characterId") long characterId,
+            @Path("characterId") Long characterId,
             @Query("ts") String ts,
             @Query("hash") String hash,
             @Query("apikey") String apikey

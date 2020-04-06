@@ -13,7 +13,7 @@ public class MarvelRepository {
         return getApiService().getALLPersonagens(pagina, orderBy, ts, hash, apiKey);
     }
 
-    public Observable<Comics> getComicsRepository(long characterid, String ts, String hash, String apiKey) {
+    public Observable<Comics> getComicsRepository(Long characterid, String ts, String hash, String apiKey) {
         return getApiService().getIdComics(characterid, ts, hash, apiKey);
     }
 }

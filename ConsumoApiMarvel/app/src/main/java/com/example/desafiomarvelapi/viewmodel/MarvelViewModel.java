@@ -60,7 +60,7 @@ public class MarvelViewModel extends AndroidViewModel {
                         }));
     }
 
-    public void getComics(long characterid) {
+    public void getComics(Long characterid) {
         disposable.add(
                 repository.getComicsRepository(characterid, ts, hash, PUBLIC_API_KEY)
                         .subscribeOn(Schedulers.io())
